@@ -1,15 +1,13 @@
 # bufrencode
 
-### BUFR解码与编报功能介绍
+# BUFR Decoding and Encoding Features
 
-本项目基于netCDF-Java源码实现了BUFR解码与编报功能。以下是本功能的特点：
+### This repository implements BUFR decoding and encoding functionalities based on the netCDF-Java source code. Below are the key features of this functionality:
 
-1. **基于netCDF-Java源码实现**：利用netCDF-Java库作为基础，构建了BUFR解码与编报功能。
+1. Implementation based on netCDF-Java source code: Leveraging the netCDF-Java library as the foundation, BUFR decoding and encoding features are constructed.
+2. Optimized handling of netCDF-Java parsing errors in GDAS data: Rectified parsing errors encountered during GDAS data parsing, ensuring improved accuracy and reliability.
+3. Rewritten BUFR decoding: The BUFR decoding functionality has been rewritten, encompassing decoding of both compressed and uncompressed data. This ensures robust support and parsing capabilities for various BUFR format data.
+4. Added BUFR encoding functionality: A new BUFR encoding feature has been introduced, currently supporting encoding of uncompressed data, with future support planned for compressed data encoding.
 
-2. **优化了netCDF-Java解析GDAS数据的错误问题**：修复解析GDAS数据时出现的错误。
-
-3. **重写BUFR解码**：重新实现了BUFR解码功能，包括对压缩数据和非压缩数据的解码，确保了对各种BUFR格式数据的支持和解析能力。
-
-4. **新增BUFR编报功能**：新增了BUFR编报功能，目前已实现对非压缩数据的编报，同时也支持压缩数据的编报。
-
+[README_zh.md](https://github.com/zfy68/bufrencode/edit/main/README_en.md)
 
